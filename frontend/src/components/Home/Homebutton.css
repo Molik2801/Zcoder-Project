@@ -1,0 +1,55 @@
+.dashboard {
+  position: fixed;
+  top: 0;
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 36, 107, 0.6); /* Transparent background */
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.dashboard img {
+  width: 100px;
+  filter: invert(100%);
+  cursor: pointer;
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.restdiv, .logindiv {
+  display: flex;
+}
+.logindiv{
+  position: relative;
+  right: 12%;
+}
+.restdiv{
+  position: relative;
+  left: -5%;
+}
+
+.restdiv text, .logindiv text {
+  padding: 15px 20px;
+  margin: 0 10px;
+  /* background-color: white; */
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.restdiv text:hover, .logindiv text:hover {
+  background-color: black;
+  color: white;
+  /* border: 2px solid white; */
+}
