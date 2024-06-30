@@ -76,19 +76,23 @@ ZCoder is a sophisticated web platform designed to help users track their compet
 
 ![profile](./snippet/profile.png)<br>
 
-5. Add Problem<br>
+5. Edit Profile<br>
+
+![edit-profile](./snippet/edit-profile.png)<br>
+
+6. Add Problem<br>
 
 ![add-problems](./snippet/add-problems.png)<br>
 
-6. Problem List<br>
+7. Problem List<br>
 
 ![your-problems](./snippet/your-problems.png)<br>
 
-7. Dashboard<br>
+8. Dashboard<br>
 
 ![dashboard](./snippet/dashboard.png)<br>
 
-8. Contest Calander<br>
+9. Contest Calander<br>
 
 ![contest-calander](./snippet/contest-calander.png)<br>
 
