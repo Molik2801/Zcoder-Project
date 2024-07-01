@@ -11,21 +11,11 @@
 }
 
 .dashboard img {
-  width: 100px;
-  filter: invert(100%);
+  width: 200px;
   cursor: pointer;
-  animation: rotate 7s linear infinite;
+  transition: transform 0.3s ease;
+  filter:brightness(150%);
 }
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .restdiv, .logindiv {
   display: flex;
 }
