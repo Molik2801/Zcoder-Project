@@ -35,7 +35,7 @@ ZCoder is a sophisticated web platform designed to help users track their compet
    - Navigate to the backend directory.
    - Install dependencies:
      ```sh
-     cd backend-2
+     cd backend
      npm install
      ```
    - Start the server:
