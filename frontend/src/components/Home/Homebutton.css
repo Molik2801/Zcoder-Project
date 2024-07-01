@@ -14,7 +14,7 @@
   width: 200px;
   cursor: pointer;
   transition: transform 0.3s ease;
-  filter:brightness(150%);
+  filter:brightness(140%);
 }
 .restdiv, .logindiv {
   display: flex;
