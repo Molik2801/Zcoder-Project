@@ -1,20 +1,30 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "frontend/package.json",
-        "use": "@vercel/node"
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/**/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "frontend/build"
       }
-    ],
-    "routes": [
-      { 
-        "src": "/api/backend/(.*)",
-        "dest": "backend/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "frontend/$1"
-      }
-    ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/backend/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/$1"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://molik28:molik%402801@cluster0.hffl48d.mongodb.net/",
+    "PORT": "3000"
   }
-  
+}
