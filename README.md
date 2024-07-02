@@ -1,4 +1,4 @@
-# Project_Zcoder
+# Project_ZCoder
 
 ## Description
 ZCoder is a sophisticated web platform designed to help users track their competitive programming journey by creating and managing contest calendars for various coding websites. This project utilizes Node.js, WebSocket, MongoDB, and React.js to provide a seamless and interactive experience for users.
